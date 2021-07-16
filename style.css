@@ -121,16 +121,19 @@ img {
     margin-right: 100px;
     margin-bottom: 10px;
 }
-/* .header-details .header-banner {
+/*
+Eikhane height width use korle media query te center align hoy na keno ???
+.header-details .header-banner {
     height: 438px;
     width: 550px;
+
 } */
 
 /* player information part */
 
 main {
     margin-top: 70px;
-    margin-bottom: 160px;
+    margin-bottom: 150px;
 }
 .main-container {
     width: 100%;
@@ -153,6 +156,19 @@ main {
 .player-image img {
     border-radius: 5px;
 }
+.player-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.player-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /*-----------------------------------
           information part  
 -------------------------------------*/
@@ -207,7 +223,7 @@ main {
  /*--------------------- 
        footer part 
 ------------------------*/
-.footer-start {
+.footer-part-main {
     margin-top: 140px;
     margin-bottom: 150px;
 }
@@ -290,6 +306,11 @@ main {
     .copa-image img {
         height: 246px;
         width: 330px;
+    }
+    .footer-image img{
+        height: 90px;
+        width: 306px;
+        margin-left: 83px;
     }
 
 }
